@@ -2,6 +2,29 @@
 
 ---
 
+## v1.3.0
+
+_Release Date: 2022-12-15_
+
+### Release Notes
+
+This software release incorporates several significant upgrades. The Cosmos SDK has been updated to version v0.46, introducing new features such as group, Msg-based governance proposals, PostHandlers, and Transaction Tip support. Additionally, Ethermint has been upgraded to v0.20, bringing numerous improvements to the EVM core and EIP712 support. The IBC-go module has also been updated to v5.1.0, introducing the Fee Middleware module in preparation for future adaptations involving IBC relaying fees. Lastly, the aiozrc20 module has undergone various optimizations and improvements, enhancing its overall performance and functionality.
+
+### Improvements
+
+- (sdk) Update Cosmos SDK version to [v0.46.7](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.7).
+- (ethermint) Update Ethermint version to [v0.20.0](https://github.com/evmos/ethermint/releases/tag/v0.20.0).
+- (ibc) Update IBC-go version to [v5.1.0](https://github.com/cosmos/ibc-go/releases/tag/v5.1.0).
+- (aioz) Optimize and improve module aiozrc20.
+
+### Binaries
+
+&nbsp;&nbsp;▣ [aiozd-v1.3.0-darwin-amd64.tar.gz](https://archive.aioz.network/aiozd-v1.3.0-darwin-amd64.tar.gz)  
+&nbsp;&nbsp;▣ [aiozd-v1.3.0-linux-amd64.tar.gz](https://archive.aioz.network/aiozd-v1.3.0-linux-amd64.tar.gz)  
+&nbsp;&nbsp;▣ [aiozd-v1.3.0-windows-amd64.zip](https://archive.aioz.network/aiozd-v1.3.0-windows-amd64.zip)
+
+---
+
 ## v1.2.0
 
 _Release Date: 2022-04-16_
@@ -12,7 +35,7 @@ This release incorporates upgrades to the Cosmos SDK, Tendermint, and Ethermint,
 
 ### Improvements
 
-- (sdk) Update SDK version to [v0.45.3](https://github.com/AIOZNetwork/cosmos-sdk/releases/tag/v0.45.3-aioz.1).
+- (sdk) Update Cosmos SDK version to [v0.45.3](https://github.com/AIOZNetwork/cosmos-sdk/releases/tag/v0.45.3-aioz.1).
 - (tendermint) Update Tendermint version to [v0.34.19](https://github.com/tendermint/tendermint/releases/tag/v0.34.19).
 - (ethermint) Update Ethermint version to [v0.13.0](https://github.com/AIOZNetwork/ethermint/releases/tag/v0.13.0-aioz.1).
 - (aioz) Add module aiozrc20.
@@ -56,7 +79,7 @@ _Release Date: 2021-12-25_
 
 ### Improvements
 
-- (sdk) Update SDK version to [v0.44.5](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.44.5).
+- (sdk) Update Cosmos SDK version to [v0.44.5](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.44.5).
 - (tendermint) Update Tendermint version to [v0.34.14](https://github.com/tendermint/tendermint/releases/tag/v0.34.14).
 - (ethermint) Add Ethermint version [v0.9.0](https://github.com/tharsis/ethermint/releases/tag/v0.9.0).
 - (aioz) Add module eetx.
