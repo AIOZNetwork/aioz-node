@@ -2,13 +2,38 @@
 
 ---
 
+## v1.4.0
+
+_Release Date: 2023-04-28_
+
+### Release Notes
+
+This release encompasses updates to the Cosmos SDK, Ethermint, and IBC-go, addressing numerous bug fixes and improvements. Notably, the release introduces the wetx module, enabling the sending of EVM transactions with Cosmos signing. Additionally, the aiozrc20 module now includes an aiozrc20 converter, providing an improved user experience when interacting with the wrapped AIOZRC-20 token. This converter grants EVM access to AIOZ-specific features like IBC and gravity, expanding functionality within the ecosystem.
+
+### Improvements
+
+- (sdk) Update Cosmos SDK version to [v0.46.12](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.46.12).
+- (ethermint) Update Ethermint version to [v0.22.0](https://github.com/evmos/ethermint/releases/tag/v0.22.0).
+- (ibc) Update IBC-go version to [v6.1.0](https://github.com/cosmos/ibc-go/releases/tag/v6.1.0).
+- (gravity) Add a forked version of Gravity Bridge module [v1.8.2](https://github.com/Gravity-Bridge/Gravity-Bridge/releases/tag/v1.8.2).
+- (aioz) Add module `wetx`.
+- (aioz) Add `aiozrc20 converter`.
+
+### Binaries
+
+&nbsp;&nbsp;▣ [aiozd-v1.4.0-darwin-amd64.tar.gz](https://archive.aioz.network/aiozd-v1.4.0-darwin-amd64.tar.gz)  
+&nbsp;&nbsp;▣ [aiozd-v1.4.0-linux-amd64.tar.gz](https://archive.aioz.network/aiozd-v1.4.0-linux-amd64.tar.gz)  
+&nbsp;&nbsp;▣ [aiozd-v1.4.0-windows-amd64.zip](https://archive.aioz.network/aiozd-v1.4.0-windows-amd64.zip)
+
+---
+
 ## v1.3.0
 
 _Release Date: 2022-12-15_
 
 ### Release Notes
 
-This software release incorporates several significant upgrades. The Cosmos SDK has been updated to version v0.46, introducing new features such as group, Msg-based governance proposals, PostHandlers, and Transaction Tip support. Additionally, Ethermint has been upgraded to v0.20, bringing numerous improvements to the EVM core and EIP712 support. The IBC-go module has also been updated to v5.1.0, introducing the Fee Middleware module in preparation for future adaptations involving IBC relaying fees. Lastly, the aiozrc20 module has undergone various optimizations and improvements, enhancing its overall performance and functionality.
+This release incorporates several significant upgrades. The Cosmos SDK has been updated to version v0.46, introducing new features such as group, Msg-based governance proposals, PostHandlers, and Transaction Tip support. Additionally, Ethermint has been upgraded to v0.20, bringing numerous improvements to the EVM core and EIP712 support. The IBC-go module has also been updated to v5.1.0, introducing the Fee Middleware module in preparation for future adaptations involving IBC relaying fees. Lastly, the aiozrc20 module has undergone various optimizations and improvements, enhancing its overall performance and functionality.
 
 ### Improvements
 
